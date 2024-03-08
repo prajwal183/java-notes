@@ -24,4 +24,27 @@ public class DataTypes {
    * char 2 bytes Stores a single character/letter or ASCII values
    */
 
+  public static void main(String[] args) {
+
+    // possible data type conversions
+    int number1 = 100000;
+    double number2 = number1;
+    long number3 = number1;
+    // can use L to say the number is a long or not
+    long number4 = 100000L;
+    System.out.println(number2);
+    System.out.println(number3);
+    System.out.println(number4);
+
+    // not possible data type conversions
+    // int number5 = 100000.5;
+    // int number6 = 100000.5f;
+    double number7 = 100000.8;
+
+    // use (int) but the compiler will automatically convert it to an int and there
+    // will be data loss
+    int number8 = (int) number7;
+    System.out.println(number8);
+
+  }
 }
