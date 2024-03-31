@@ -8,7 +8,7 @@ public class DataTypes {
   boolean f = true;
   String g = "Hello";
   char h = 'a';
-  float i = 10.5f;
+  float i = 100000.5f;
 
   /**
    * byte 1 byte Stores whole numbers from -128 to 127
